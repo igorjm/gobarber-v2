@@ -4,7 +4,7 @@ import CreateUserService from '../services/CreateUserService';
 
 const usersRouter = Router();
 
-// CREATE APPOINTMENT
+// CREATE USER
 usersRouter.post('/', async (req, res) => {
   try {
     const { name, email, password } = req.body;
