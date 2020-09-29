@@ -12,7 +12,6 @@ const providerDayAvailabilityController = new ProviderDayAvailabilityController(
 
 providersRouter.use(ensureAuthenticated);
 
-// CREATE APPOINTMENTS
 providersRouter.get('/', providersController.index);
 
 providersRouter.get(
