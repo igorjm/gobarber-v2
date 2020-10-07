@@ -3,6 +3,10 @@
 .vscode/
 build/
 temp/
+.env
+
+ormconfig.json
+tsconfig.json
 
 tmp/*
 !tmp/.gitkeep
